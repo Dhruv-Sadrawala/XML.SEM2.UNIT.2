@@ -1,0 +1,2 @@
+<!ELEMENT Email (Message)>
+<!ELEMENT Message (#PCDATA)>

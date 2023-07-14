@@ -1,0 +1,10 @@
+<!ELEMENT email (from,to,content)>
+		<!ELEMENT from (#PCDATA)>
+		<!ELEMENT to (#PCDATA)>
+		<!ELEMENT content (#PCDATA | person |exs)*>
+		<!ELEMENT co (#PCDATA)>
+		<!ELEMENT person (#PCDATA)>
+		<!ELEMENT exs (ex+)>
+		<!ELEMENT ex (topic,description)>
+		<!ELEMENT topic (#PCDATA)>
+		<!ELEMENT description (#PCDATA)>

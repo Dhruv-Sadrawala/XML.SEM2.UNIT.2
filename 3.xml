@@ -1,0 +1,20 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+	
+	<!DOCTYPE order_detail[
+		<!ELEMENT order_detail (OrderNumber,orderDate,orderAmount,ItemPrice*,ItemName+,Qunatity*)>
+		<!ELEMENT OrderNumber (#PCDATA)>
+		<!ELEMENT orderDate (#PCDATA)>
+		<!ELEMENT orderAmount (#PCDATA)>
+		<!ELEMENT ItemPrice (#PCDATA)>
+		<!ELEMENT ItemName (#PCDATA)>
+		<!ELEMENT Quantity (#PCDATA)>
+		]>
+
+<order_detail>
+       <OrderNumber>1</OrderNumber>
+       <orderDate>12-02-2023</orderDate>
+       <orderAmount>12000</orderAmount>
+       <ItemPrice>3000</ItemPrice>
+       <ItemName>Vase</ItemName>
+       <Quantity>4</Quantity>
+</order_detail>

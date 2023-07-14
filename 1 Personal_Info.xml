@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE personal_info SYSTEM "1.dtd">
+
+<personal_info>
+ <Roll_no>1</Roll_no>
+ <Name>ABC</Name>
+ <Address>AHMEDABAD</Address>
+ <Mobile>0123</Mobile>
+ <DOB>20/03/2004</DOB>
+<Age>18</Age>
+<Qualification></Qualification>
+</personal_info>

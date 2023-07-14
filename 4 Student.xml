@@ -1,0 +1,22 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+	
+	
+	<!DOCTYPE Student SYSTEM "4.dtd">
+	<Student>
+		<stuName>ABC</stuName>
+		<personal_info>
+			<birthdate>12/03/2004</birthdate>
+			<gender>
+				<male>YES</male>
+			</gender>
+			<mobile>0123</mobile>
+			<address>sbxnsknx</address>
+		</personal_info>
+		<result>
+			<total>550</total>
+			<percentage>60%</percentage>
+			<grade>
+				<pass>YES</pass>
+			</grade>
+		</result>
+	</Student>

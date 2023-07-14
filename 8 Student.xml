@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+	
+	<!DOCTYPE student SYSTEM "8.dtd">
+	<student>
+		<rollNo></rollNo>
+		<name></name>
+		<marks>
+			<XML></XML>
+		</marks>
+		<rank></rank>
+	</student>

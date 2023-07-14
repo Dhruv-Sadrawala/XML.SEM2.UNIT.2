@@ -1,0 +1,8 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Email SYSTEM  "2.dtd" >
+
+<Email>
+<Message from = "abc@gmail.com" to = "xyz@gmail.com" subject ="hvcsjvc">
+</Message>
+</Email>

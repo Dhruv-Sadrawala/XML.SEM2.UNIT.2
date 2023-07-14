@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+	
+	<!DOCTYPE student SYSTEM "6.dtd">
+	
+	<student>
+		<name>
+			<fname></fname>
+			<lname></lname>
+		</name>
+		<id></id>
+		<plan>
+		  <courses year="3">
+		     <course>
+		        <shortName></shortName>
+		        <record>
+			      <grade></grade>
+			      <date></date>
+		        </record>
+		     </course>
+		   </courses>
+		</plan>
+	</student>

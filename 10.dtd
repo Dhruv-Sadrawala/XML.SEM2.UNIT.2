@@ -1,0 +1,11 @@
+<!ELEMENT student_info (student)>
+		<!ELEMENT student (name,contact_no,course,subject)>
+		<!ELEMENT course (name)>
+		<!ENTITY na "GLS">
+		<!ATTLIST course c_id ID #REQUIRED>
+		<!ELEMENT subject (#PCDATA)>
+		<!ATTLIST student which_course IDREF #REQUIRED>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT contact_no (#PCDATA)>
+		<!ATTLIST contact_no no NMTOKEN #IMPLIED>
+		<!ATTLIST subject name (Java|xml|OS) #REQUIRED> 

@@ -1,0 +1,9 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+	
+	<!DOCTYPE Book SYSTEM "5.dtd">
+	<Book>
+		<book title="XML"></book>
+		<author>xyz</author>
+		<year>2000</year>
+		<publisher>OS Publisher</publisher>
+	</Book>
