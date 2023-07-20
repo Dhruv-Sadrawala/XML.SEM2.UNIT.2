@@ -1,0 +1,21 @@
+<!ENTITY % forPersonalInfo "INCLUDE">
+<!ENTITY % forResult "IGNORE">
+
+<![%forPersonalInfo;[
+	<!ELEMENT personal_info (address,dob)>
+	]]>
+
+<![%forResult;[
+	<!ELEMENT result (grade)>
+	]]>
+	
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT result (#PCDATA)>
+<!ELEMENT student (stu_name,personal_info,result)>
+<!ELEMENT stu_name (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT percentage (#PCDATA)>
+<!ELEMENT grade (#PCDATA)>
