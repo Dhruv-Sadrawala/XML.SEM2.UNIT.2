@@ -3,10 +3,10 @@
 	<!DOCTYPE student_info SYSTEM "10.dtd">
 	
 <student_info>
-	<student which_course="A21">
+	<student which_course="N21">
 		<name>&na;</name>
 		<contact_no no="452011"></contact_no>
-		<course c_id="A21">
+		<course c_id="N21">
 				<name></name>
 		</course>
 		<subject name="Java"></subject>
